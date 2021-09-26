@@ -1,0 +1,76 @@
+body {
+    width: 60%;
+    margin: auto;
+    background-color: cornflowerblue;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+
+.container {
+    width: 400px;
+    display: inline;
+}
+
+.mode {
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin: 20px;
+    background-color: dimgrey;
+    color: white;
+}
+
+#inputfield {
+    width: 80%;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+#add {
+    width: 10%;
+    height:50px;
+    margin-left: 20px;
+    margin-top : 2px;
+    border: 1px solid black;
+    font-size: 25px;
+}
+.to-do{
+    margin:50px;
+
+}
+.paragraph-styling {
+    margin: 25px;
+    cursor: pointer;
+    font-size: 25px;
+    list-style: none;
+    background-color: whitesmoke;
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.button {
+    height: 25px;
+    width: 80px;
+    margin: 10px 10px ;
+    color:black;
+    align-self: flex-end;
+    background-color: white;
+    border: 1px solid black;
+}
+.button:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
